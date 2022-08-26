@@ -1,9 +1,9 @@
-import Register from "./components/users/Register";
+import FormInput from "./components/FormInput";
 
 function App() {
   return (
     <div className="App">
-      <Register />
+      <FormInput />
     </div>
   );
 }
