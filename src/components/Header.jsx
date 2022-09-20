@@ -7,13 +7,13 @@ import * as AiIcons from "react-icons/ai";
 
 function Header() {
     return (
-        <header>
+        <header className="bg-gray-300 top-0 sticky z-50">
             <div className="flex z-50 w-screen p-2 px-4">
                 <nav className="flex w-full h-full items-center ">
                     
-                    <div className="items-center gap-2 ml-8">
-                        <img src={Logo} className="w-12 object-cover text" alt="logo" />
-                        <span className="text-1xl font-normal">Nepang</span>
+                    <div className="flex items-center gap-1 ml-8">
+                        <img src={Logo} className="w-8 object-cover text" alt="logo" />
+                        <span className="text-1xl font-normal mt-1">Nepang</span>
                     </div>
 
                     <div>
