@@ -18,6 +18,16 @@ body {
   /* overflow-x: hidden; */
 }
 
+h1 {
+  font-size: 18rem;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
